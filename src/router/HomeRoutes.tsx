@@ -12,7 +12,7 @@ export const homeRoutes = [
   {
     path: "/user_management",
     exact: false,
-    childeren: <UserManagement />
+    children: <UserManagement />
   },
   {
     path: "/setting",
