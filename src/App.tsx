@@ -3,13 +3,13 @@ import { BrowserRouter } from "react-router-dom";
 
 import theme from "./theme/theme";
 // import { Router } from "./router/Router";
-import { Router2 } from "./router/Router2";
+import { Router } from "./router/Router";
 
 export default function App() {
   return (
     <ChakraProvider theme={theme}>
       <BrowserRouter>
-        <Router2 />
+        <Router />
       </BrowserRouter>
     </ChakraProvider>
   );
