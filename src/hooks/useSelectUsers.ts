@@ -8,7 +8,7 @@ type Props = {
   onOpen: () => void;
 };
 
-export const useSelectUSer = () => {
+export const useSelectUser = () => {
   const [selectedUser, setSelectedUser] = useState<User | null>(null);
 
   const onSelectUser = useCallback((props: Props) => {
